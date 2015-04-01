@@ -60,4 +60,4 @@ So, given an element with a different `name` than `id` such as:
 ````html
 <input type="text" id="foo" name="bar" value="" />
 ````
-The plugin will try to find a cookie named `bar` and apply its value tot he element. If it cannot find that cookie, it will then try to find a cookie named `foo`. This is true no matter what selector was used to find the element--each element is looked at independently and its attributes are iterated in this order to find an applicable cookie.
+The plugin will try to find and use a cookie named `bar`. If it cannot find that cookie, it will then try to find and use a cookie named `foo`. This is true no matter what selector was used to find the element--each element is looked at independently and its attributes are iterated in this order to find an applicable cookie.
