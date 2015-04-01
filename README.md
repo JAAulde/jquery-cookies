@@ -17,7 +17,7 @@ npm install jaaulde-jquery-cookies
 Download the code (requires [JAAulde/cookies](https://github.com/JAAulde/cookies/)), link it in your HTML file.
 ```html
 <script src="/path/to/jaaulde-cookies.js"></script>
-<script src="/path/to/jaaulde-jquery-cookies.js"></script>
+<script src="/path/to/jaaulde-cookies.jquery.js"></script>
 ```
 ## usage
 
