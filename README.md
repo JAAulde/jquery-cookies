@@ -3,12 +3,12 @@ Adds jaaulde-cookies to the jQuery namespace, and provides jQ extension methods 
 
 ## installation
 
-### bower
+### [bower](http://bower.io)
 ````bash
 bower install jaaulde-jquery-cookies
 ````
 
-### npm
+### [npm](https://www.npmjs.com)
 ````bash
 npm install jaaulde-jquery-cookies
 ````
