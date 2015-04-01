@@ -86,6 +86,25 @@ If, instead of an input, the selector is for an element such as:
 ```
 the cookie's value will be written to the element's `innerHTML`.
 
+#### `$.fn.cookieBind`
+Fill an input using [`$.fn.cookieFill`](https://github.com/JAAulde/jquery-cookies#fncookiefill), then bind its `change` event to update a cookie via [`$.fn.cookify`](https://github.com/JAAulde/jquery-cookies#fncookify). Options which can be specified are the [JAAulde/cookies cookie options](https://github.com/JAAulde/cookies#cookie-options).
+##### signature
+```javascript
+/**
+ * $('selector').cookieBind - call cookieFill() on matching input elements, and bind their change events to cookify()
+ *
+ * @access public
+ * @param options OBJECT - list of cookie options to specify
+ * @see https://github.com/JAAulde/cookies#cookie-options
+ * @return jQuery
+ */
+cookieBind: function (options) {
+```
+##### example
+```javascript
+$('#username').cookieBind();
+```
+
 ### An important note:
 The plugins use [name](http://www.w3.org/TR/html4/types.html#type-name) and [id](http://www.w3.org/TR/html4/types.html#type-id) attributes (listed in order of precedence, respectively) from the matched elements as the name of the cookie on which to operate.
 
