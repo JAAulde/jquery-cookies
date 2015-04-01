@@ -28,7 +28,7 @@ The entire cookies singleton API from [JAAulde/cookies](https://github.com/JAAul
 ### jQuery plugin methods
 
 #### `$.fn.cookify`
-Write an element's contents to a cookie
+Write an element's contents to a cookie. Options which can be specified are the [JAAulde/cookies cookie options](https://github.com/JAAulde/cookies#cookie-options).
 ##### signature
 ```javascript
 /**
