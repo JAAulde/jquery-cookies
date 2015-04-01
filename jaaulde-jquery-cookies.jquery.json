@@ -1,0 +1,31 @@
+{
+    "name": "jaaulde-jquery-cookies",
+    "version": "3.0.0",
+    "title":  "JAAulde jQuery Cookies",
+    "description": "Adds jaaulde-cookies to the jQuery namespace, and provides jQ extension methods to bind cookies to form values and html elements.",
+    "author": {
+        "name": "Jim Auldridge",
+        "email": "auldridgej@gmail.com",
+        "url": "https://github.com/jaaulde"
+    },
+    "maintainers": [
+        {
+            "name": "Jim Auldridge",
+            "email": "auldridgej@gmail.com",
+            "url": "https://github.com/jaaulde"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.githubusercontent.com/JAAulde/jquery-cookies/master/LICENSE"
+        }
+    ],
+    "dependencies": {
+        "jquery": "~1.11.1",
+        "jaaulde-cookies": "~3.0.5"
+    },
+    "bugs": "https://github.com/JAAulde/jquery-cookies/issues",
+    "homepage": "https://github.com/JAAulde/jquery-cookies",
+    "docs": "https://github.com/JAAulde/jquery-cookies/blob/master/README.md"
+}
